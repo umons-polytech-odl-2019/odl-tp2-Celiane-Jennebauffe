@@ -4,7 +4,7 @@ package exercise1;
 		private final String name;
 		protected float salary;
 		private int sales=0;
-		protected float workedHours;
+		private float workedHours=0;
 		protected Employee(String name) //on est en protected car accessible que par des classes filles
 		{
 			this.name=name;
@@ -15,10 +15,10 @@ package exercise1;
 	}
 
 	public void workOneHour() { this.workedHours +=1;} //compteur du nombre d'heures travaillées
-/*
+
 	public float getWorkedHours()
 	{ return workedHours;}
-	*/
+
 
 	public void sell() { sales++;} //compteur des ventes effectuées
 

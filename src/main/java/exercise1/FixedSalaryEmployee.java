@@ -8,9 +8,9 @@ public class FixedSalaryEmployee extends Employee {
 	  }
 
 	@Override
-	public float ComputeSalary()
+	public float computeSalary()
 	{
-		return this.salary;
+		return (float) this.salary;
 	}
 
 }

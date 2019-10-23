@@ -9,7 +9,8 @@ public class BaseSalaryPlusCommissionEmployee extends Employee {
 		this.commission=commission;
 
 	}
+
 	@Override
-	public float ComputeSalary()	{return this.salary+getSales()*this.commission;	}
+	public float computeSalary() {return (float) this.salary+getSales()*this.commission;	}
 
 }

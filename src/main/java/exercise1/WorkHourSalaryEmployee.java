@@ -7,12 +7,11 @@ public class WorkHourSalaryEmployee extends Employee {
 	{
 		super(name); //utilise le constructeur de la classe mère
 		this.hourRate=hourRate;
-		this.workedHours=160;
 
 	}
 
 	@Override
 	public float computeSalary() {
-		return (float) this.hourRate*this.workedHours;
+		return (float) this.hourRate*this.getWorkedHours();
 	}
 }
