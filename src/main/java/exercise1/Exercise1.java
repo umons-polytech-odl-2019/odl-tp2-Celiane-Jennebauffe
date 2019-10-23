@@ -6,7 +6,7 @@ public class Exercise1 {
 	}
 
 	public Employee buildBaseSalaryPlusCommissionEmployee(String name, int baseSalary, int commission) {
-		return BaseSalaryPlusCommissionEmploye(name, baseSalary, commission);
+		return new BaseSalaryPlusCommissionEmployee (name, baseSalary, commission);
 	}
 
 	public Employee buildWorkHourSalaryEmployee(String name, float hourRate) {
