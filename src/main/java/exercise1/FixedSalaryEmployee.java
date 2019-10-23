@@ -1,7 +1,6 @@
 package exercise1;
 
 public class FixedSalaryEmployee extends Employee {
-	private int salary=0;
 
       public FixedSalaryEmployee(String name, int fixedSalary) { //constructeur
 		  super(name); //utilise le constructeur
@@ -11,7 +10,7 @@ public class FixedSalaryEmployee extends Employee {
       	super.WorkOneHour();
 	}
 	@Override
-	public int ComputeSalary()
+	public float ComputeSalary()
 	{
 		return this.salary;
 	}
