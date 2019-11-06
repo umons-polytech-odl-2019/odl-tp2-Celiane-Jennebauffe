@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractEmployeeTest {
 	@Test
-	public void employeeIsPayavble() {
+	public void employeeIsPayable() {
 		Employee employee = buildEmployeeAndEarnSomeMoney();
 		assertThat(employee).isInstanceOf(Payable.class);
 	}

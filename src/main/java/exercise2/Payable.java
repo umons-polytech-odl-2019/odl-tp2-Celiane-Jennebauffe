@@ -1,5 +1,5 @@
 package exercise2;
 
 public interface Payable {
-	int computeSalary();
+	default public float computeSalary() { return -1;};
 }
